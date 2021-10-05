@@ -1,1 +1,1 @@
-from ptester import *
+from .ptester import *
