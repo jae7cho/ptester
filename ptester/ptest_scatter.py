@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
-def ptest_scatter(x,y,figsize=(10,10),marker='.',s=10):
-    plt.figure(figsize=(figsize[0],figsize[1]))
+def ptest_scatter(x,y,marker='.',s=10):
+    fig,ax = plt.subplots()
     plt.scatter(x,y,marker=marker,s=s)
+    plt.show()
