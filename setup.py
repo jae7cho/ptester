@@ -8,5 +8,5 @@ setup(name='ptester',
       author='Jae Wook Cho',
       author_email='jae7cho@gmail.com',
       url='https://github.com/jae7cho/ptester',
-      packages=['numpy', 'matplotlib'],
+      packages=['ptest_mod'],
      )
